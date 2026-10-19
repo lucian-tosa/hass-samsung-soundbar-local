@@ -19,7 +19,7 @@ No cloud, no SmartThings integration in Home Assistant – everything stays on y
 | Subwoofer | woofer ± (not presented to Home Assistant yet) |
 | Inputs | HDMI1, E-ARC, ARC, Digital, Bluetooth, Wi-Fi |
 | Sound modes | Standard, Surround, Game, Movie, Music, Clear Voice, DTS Virtual X, Adaptive |
-| Audio codec | `sensor.soundbar_<ipaddr>_codec` shows the codec of the current audio stream (e.g. Dolby Atmos, DTS, PCM) |
+| Audio codec | `sensor.soundbar_<ipaddr>_codec` shows the codec of the current audio stream, as reported by the bar |
 
 The entity is exposed as `media_player.soundbar_<ipaddr>` and works with dashboards, automations and scripts just like any other media-player device.
 
