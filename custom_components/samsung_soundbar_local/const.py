@@ -1,6 +1,6 @@
 DOMAIN = "soundbar_local"
 
-PLATFORMS = ["button", "media_player"]
+PLATFORMS = ["button", "media_player", "sensor"]
 
 DEFAULT_POLL_INTERVAL = 10  # seconds
 
